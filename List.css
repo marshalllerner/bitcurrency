@@ -1,0 +1,49 @@
+/*
+Contains items that will be used in List and Filtered List
+*/
+
+
+.filters {
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	font-size: 28px;
+	color: white;
+}
+
+
+
+.album_item {
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	font-size: 40px;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+
+.title {
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-size: 5vw;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+
+.input_item {
+	background-color: black;
+	padding-top: 1vw;
+	padding-bottom: 3vw;
+	padding-left: 20vw;
+	padding-right: 20vw;
+    height:3px;
+    font-size:19pt;
+}
+
+ul {	
+	column-count: 3;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+}
+
+li {
+	break-inside: avoid-column;
+}
